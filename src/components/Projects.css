@@ -13,13 +13,13 @@
 }
 
 .project-image {
-  grid-area: 1 / 1 / -1 / 8;
+  grid-area: 1 / 1 / -1 / 7;
   position: relative;
   z-index: 1;
 }
 
 .project-card:nth-of-type(even) .project-image {
-  grid-area: 1 / 6 / -1 / -1;
+  grid-area: 1 / 7 / -1 / -1;
 }
 
 .project-image a {
@@ -66,14 +66,16 @@
 
 .project-content {
   position: relative;
-  grid-area: 1 / 6 / -1 / -1;
+  grid-area: 1 / 7 / -1 / -1;
   text-align: right;
   z-index: 2;
+  padding-left: 20px;
 }
 
 .project-card:nth-of-type(even) .project-content {
-  grid-area: 1 / 1 / -1 / 8;
+  grid-area: 1 / 1 / -1 / 7;
   text-align: left;
+  padding-right: 20px;
 }
 
 .project-overline {
