@@ -30,11 +30,6 @@ const Navbar = () => {
             <li className="fade-in-up delay-3"><a href="#projects">Projects</a></li>
             <li className="fade-in-up delay-4"><a href="#contact">Contact</a></li>
           </ol>
-          <div className="fade-in-up delay-5">
-            <a className="resume-button" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-              Resume
-            </a>
-          </div>
         </div>
       </nav>
     </header>
