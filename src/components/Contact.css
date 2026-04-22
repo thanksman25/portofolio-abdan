@@ -1,0 +1,45 @@
+.contact-section {
+  max-width: 600px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+
+.contact-overline {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact-title {
+  font-size: clamp(40px, 5vw, 60px);
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
+
+.contact-desc {
+  color: var(--text-muted);
+  font-size: 18px;
+}
+
+.contact-btn {
+  margin-top: 50px;
+}
+
+.social-links-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.social-links-footer a {
+  padding: 10px;
+  color: var(--text-light);
+}
+
+.social-links-footer a:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px);
+}
